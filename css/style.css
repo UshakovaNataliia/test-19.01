@@ -58,14 +58,18 @@ ul {
 .btn-sm {
   display: inline-block;
   padding: 8px 20px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   min-width: 80px;
   border-radius: 5px;
   color: #91ebf5;
   background-color: #26b2fd;
   border: none;
 }
-
+.registration-description {
+  margin-bottom: 50px;
+  font-size: 12px;
+  color: rgb(105, 103, 103);
+}
 .icon-send {
   vertical-align: middle;
   margin-right: 5px;
