@@ -42,15 +42,15 @@ ul {
   padding: 0;
 }
 .header {
-  padding: 10px 10px 30px 10px;
+  padding: 10px;
 }
 .h1-title {
-  margin-bottom: 30px;
-  font-size: 54px;
+  margin-bottom: 10px;
+  font-size: 34px;
   font-weight: normal;
 }
 .h2-title {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 20px;
   font-weight: normal;
   padding: 0 80px;
@@ -66,7 +66,7 @@ ul {
   border: none;
 }
 .registration-description {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 12px;
   color: rgb(105, 103, 103);
 }
@@ -79,6 +79,7 @@ ul {
   display: block;
   margin: 0 auto;
   padding: 0;
+  width: 550px;
 }
 footer {
   padding: 15px;
@@ -94,6 +95,9 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 10px 10px 0 10px;
+}
+.main-container.start {
+  padding-bottom: 60px;
 }
 .nav-list {
   display: flex;
@@ -120,7 +124,7 @@ footer {
 
 .start-main {
   background-color: #f3f3f3;
-  padding-bottom: 130px;
+  padding-bottom: 75px;
 }
 .main-container {
   display: flex;
@@ -340,7 +344,7 @@ input:checked + .slider:before {
   text-align: center;
 }
 .buttons-box h2 {
-  padding: 10px 20px 10px 5px;
+  padding: 10px 20px 10px 10px;
   font-size: 12px;
   color: grey;
   text-align: left;
